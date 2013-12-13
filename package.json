@@ -1,0 +1,38 @@
+{
+  "name": "hubot-deploy",
+  "description": "A hubot script to deploy MS sites",
+  "version": "0.0.0",
+  "author": "Richard Walker <digitalsadhu@gmail.com>",
+  "license": "MIT",
+
+  "keywords": [
+    "hubot",
+    "hubot-scripts"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mediasuitenz/hubot-deploy.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/mediasuitenz/hubot-deploy/issues"
+  },
+
+  "dependencies": {
+    "coffee-script": "~1.6"
+  },
+
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*"
+  },
+
+  "main": "index.coffee",
+
+  "scripts": {
+    "test": "script/test"
+  }
+}
